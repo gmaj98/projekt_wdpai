@@ -1,0 +1,61 @@
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 2rem;
+    color: blue;
+    border: 2px solid blue;
+    border-radius: 12px;
+    background-color: lightgrey;
+    width: 15%;
+    height: 40%;
+}
+
+header > div {
+    display: flex;
+    justify-content: space-between; 
+    width: 100%;
+    margin-right: 30px;
+}
+
+
+    .logo span {
+        font-size: 35px;
+        line-height: 1;
+    }
+
+    .logo i {
+        font-size: 35px;
+        margin-right: 0.5em;
+    }
+
+.nav {
+    margin-right: 10px;
+}
+
+    .nav ul {
+        list-style: none;
+        display: flex;
+        gap: 1em;
+        margin: 0;
+        padding: 0;
+    }
+
+        .nav ul li a {
+            text-decoration: none;
+            padding: 0.6em 1.2em;
+            border-radius: 1.5em;
+            border: 2px solid blue;
+            background: #e0e0e0;
+            color: blue;
+            font-size: 20px;
+            transition: all 0.2s ease-in-out;
+        }
+
+            .nav ul li a:hover {
+                background: darkblue;
+                color: white;
+                transform: scale(1.05);
+            }
+

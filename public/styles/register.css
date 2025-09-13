@@ -1,0 +1,97 @@
+﻿
+.register-form {
+    max-width: 420px;
+    margin: 140px auto 100px; 
+    padding: 2rem;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0,0,0,.08);
+    font-family: "Montserrat", sans-serif;
+}
+
+    .register-form h2 {
+        margin-bottom: 1.5rem; 
+        text-align: center;
+        font-weight: 700;
+        color: #222;
+    }
+
+
+    .register-form .form-control {
+        display: flex;
+        align-items: center;
+        gap: .6rem;
+        background: #f7f7f9;
+        border: 1px solid #e6e6ee;
+        border-radius: 10px;
+        padding: .9rem 1rem;
+        margin-bottom: 1.2rem; 
+    }
+
+        .register-form .form-control i {
+            color: #555;
+        }
+
+        .register-form .form-control input {
+            border: none;
+            outline: none;
+            background: transparent;
+            flex: 1;
+            font-size: 1rem;
+        }
+
+
+    .register-form button {
+        width: 100%;
+        padding: .9rem 1.1rem;
+        border: none;
+        border-radius: 10px;
+        background: #0b5fff;
+        color: #fff;
+        font-weight: 600;
+        cursor: pointer;
+        transition: background .2s ease-in-out, transform .1s ease-in-out;
+        margin-top: .5rem; 
+    }
+
+        .register-form button:hover {
+            background: #0847c1;
+        }
+
+        .register-form button:active {
+            transform: scale(0.99);
+        }
+
+
+#registerMsg {
+    font-weight: 600;
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 0.95rem;
+}
+
+    #registerMsg.error {
+        color: #d11;
+    }
+
+    #registerMsg.success {
+        color: #108a00;
+    }
+
+
+@media (max-width: 500px) {
+    .register-form {
+        margin: 120px 1rem 90px;
+        padding: 1.2rem;
+    }
+
+        .register-form .form-control {
+            padding: .7rem .9rem;
+            margin-bottom: 1rem;
+        }
+
+        .register-form button {
+            padding: .8rem;
+            font-size: 0.95rem;
+        }
+}

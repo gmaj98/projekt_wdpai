@@ -1,0 +1,48 @@
+﻿.article-detail {
+    margin: 4rem auto 2rem auto;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 60%;
+}
+
+    .article-detail img {
+        width: 100%;
+        max-height: 400px;
+        object-fit: contain;
+        border-radius: 12px;
+        margin-bottom: 1rem;
+        display: block;
+        background: #f5f5f5;
+    }
+
+    .article-detail h1 {
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .article-detail .meta {
+        font-size: 0.9rem;
+        color: #666;
+        margin-bottom: 1.5rem;
+    }
+
+    .article-detail #articleContent {
+        font-size: 1rem;
+        line-height: 1.6;
+        color: #333;
+        white-space: pre-line;
+    }
+
+.back-link {
+    display: inline-block;
+    margin-top: 2rem;
+    font-size: 1rem;
+    color: #0056ff;
+    text-decoration: none;
+}
+
+    .back-link:hover {
+        text-decoration: underline;
+    }

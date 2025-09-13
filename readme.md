@@ -7,21 +7,20 @@ Projekt webowy w **PHP + JavaScript** z bazą danych **PostgreSQL**, którego ce
 - dodawanie i przeglądanie artykułów,
 - przeglądanie informacji o stokach narciarskich.
 
-Aplikacja została przygotowana jako projekt zaliczeniowy.
-
 ---
 
 ## 🛠️ Technologie
-- **PHP 8+** – backend (API, sesje, obsługa użytkowników)
+- **PHP**– backend 
 - **PostgreSQL** – baza danych
-- **JavaScript (ES6)** – frontend (fetch API, dynamiczne aktualizacje)
-- **HTML5 + CSS3** – interfejs użytkownika
+- **JavaScript**  – frontend 
+- **HTML5 + CSS** – interfejs użytkownika
 - **Docker + Docker Compose** – środowisko uruchomieniowe
 - **PlantUML** – dokumentacja ERD
 
 ---
 
 ## 📂 Struktura katalogów
+```
 backend/
 ├── api/ # endpointy 
 ├── config/ # konfiguracja bazy
@@ -32,7 +31,7 @@ public/
 ├── scripts/ # frontend JS
 ├── styles/ # pliki CSS
 └── views/ # widoki 
-
+```
 
 ---
 
